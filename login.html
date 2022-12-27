@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<lin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+        body{
+      background-color:#589ED9;
+        }
+
+        #items{
+            width:300px;
+            margin:auto;
+            margin-top: 180px;
+            margin-right:500px;
+            text-align:center;
+        }
+        h1{
+            font-family: 'Open Sans', sans-serif;
+            color:white;
+        }
+        .logo{
+            color:white;
+            font-size: 70px;
+            padding-bottom: 0px;
+        }
+        
+        
+        .containers input{
+            width:100%;
+            border:none;
+            padding:0px;
+            margin:0px;
+            outline:none;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            text-indent:20px;
+            font-size:15px;
+            font-family: 'Open Sans', sans-serif;
+        
+           
+           
+            
+        }
+        .containers input[type="text"]{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .containers input[type="password"]{
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        button{
+            margin-top: 20px;
+            width:100%;
+            height:45px;
+            border:none;
+            background-color:rgb(50, 102, 119);
+            border-radius: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: large;
+            font-weight: bolder;
+            color:rgb(218, 213, 213);
+        }
+        #link{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            color:rgb(231, 227, 227);
+        }
+        .as{
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form id="items">
+    <div id="header">
+    <div class="logo"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <h1>Welcome.</h1>
+    </div>
+
+
+      
+     <div class="containers" > 
+<input type="text" name="username" placeholder="Email Address" class ="input">
+<input type="password" name="password" placeholder="Password" class="input">
+    </div>
+<button> Log in</button>
+<p id="link"><a href="#" target="_blank" class="as">Sign up</a> for a new account</p>
+    </form>
+    
+</body>
+</html>
